@@ -1,13 +1,7 @@
 <h1 align="center">Hi 👋, I'm Cássio</h1>
 <h3 align="center">A Embedded Developer from Brazil</h3>
 
-- 👨‍💻 All of my projects are available at [https://cassiocionicarmo.github.io/CassioCioniCarmo/](https://cassiocionicarmo.github.io/CassioCioniCarmo/)
-
-- 📝 I regularly write articles on [https://cassiocionicarmo.github.io/CassioCioniCarmo/](https://cassiocionicarmo.github.io/CassioCioniCarmo/)
-
 - 📫 How to reach me **cassiocioni@hotmail.com**
-
-- 📄 Know about my experiences [https://cassiocionicarmo.github.io/CassioCioniCarmo/](https://cassiocionicarmo.github.io/CassioCioniCarmo/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
