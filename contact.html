@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="pt" data-en="Contact" data-pt="Contato"></title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 data-lang="pt" data-en="Contact" data-pt="Contato"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-lang="pt" data-en="Home" data-pt="Início"></a></li>
+                <li><a href="about.html" data-lang="pt" data-en="About" data-pt="Sobre"></a></li>
+                <li><a href="projects.html" data-lang="pt" data-en="Projects" data-pt="Projetos"></a></li>
+                <li><a href="contact.html" data-lang="pt" data-en="Contact" data-pt="Contato"></a></li>
+            </ul>
+        </nav>
+        <button class="lang-btn" onclick="toggleLanguage()">EN/PT</button>
+    </header>
+    
+    <div class="container">
+        <h2 data-lang="pt" data-en="Contact Us" data-pt="Entre em Contato">Entre em Contato</h2>
+        <form action="#" method="POST">
+            <label for="nome" data-lang="pt" data-en="Name" data-pt="Nome"></label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email" data-lang="pt" data-en="Email" data-pt="E-mail"></label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem" data-lang="pt" data-en="Message" data-pt="Mensagem"></label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+            <button type="submit" data-lang="pt" data-en="Send" data-pt="Enviar"></button>
+        </form>
+    </div>
+    <footer>
+        <p>© 2025 Cássio Cioni Carmo</p>    
+    </footer>
+

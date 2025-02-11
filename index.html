@@ -1,50 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="pt">
+<head>
     <meta charset="UTF-8">
-    <meta name="Cassio Portfolio" author="Cássio">
-    <title>Cássio Portfolio</title>
-    <link rel="stylesheet" href="/styles/style.css">
-  </head>
-  <body>
-    <main>
-        <hr>
-        <h1>Hello World!</h1> 
-        <p>The first commit!</p> 
-        <hr>
-
-        <!-- Ordered List -->
-        <p>Ordered List</p> 
-        <ol>
-            <li> List item 1 </li>
-            <li> List item 2 </li>
-            <li> List item 3 </li>
-        </ol>
-        <hr>
-
-        <!-- Adress tag -->
-        <p>Unordered List</p> 
-        <ul>
-            <li> List item 1 </li>
-            <li> List item 2 </li>
-            <li> List item 3 </li>
-        </ul>
-        <hr>
-
-        <!-- Details List -->
-        <p>Details List</p> 
-        <d1>
-            <dt> List item 1 </dt>
-            <dd> List item 1.1 </dd>
-            <dt> List item 2 </dt>
-        </d1>
-        <hr>
-
-        <!-- Adress tag -->
-        <address> São Carlos <br>
-            São Paulo - Brazil
-        </address>
-    </main>
-	<script src="index.js"></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="pt" data-en="About" data-pt="Sobre">Sobre</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- O título será preenchido dinamicamente -->
+        <h1 data-lang="pt" data-en="About Me" data-pt="Sobre Mim"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-lang="pt" data-en="Home" data-pt="Início"></a></li>
+                <li><a href="about.html" data-lang="pt" data-en="About" data-pt="Sobre"></a></li>
+                <li><a href="projects.html" data-lang="pt" data-en="Projects" data-pt="Projetos"></a></li>
+                <li><a href="contact.html" data-lang="pt" data-en="Contact" data-pt="Contato"></a></li>
+            </ul>
+        </nav>
+        <button class="lang-btn" onclick="toggleLanguage()">EN/PT</button>
+    </header>
+    
+    <div class="container">
+        <h2 data-lang="pt" data-en="Who am I?" data-pt="Quem sou eu?"></h2>
+        <p data-lang="pt" data-en="I am an embedded software engineer with experience in development for automotive ECUs, industrial automation, and embedded systems in general." data-pt="Sou um engenheiro de software embarcado com experiência em desenvolvimento para ECUs automotivas, automação industrial e sistemas embarcados em geral."></p>
+        <p data-lang="pt" data-en="I have expertise in languages such as C, C++, and Assembly for ARM Cortex-M, as well as knowledge in electronics and automotive communication protocols." data-pt="Tenho expertise em linguagens como C, C++ e Assembly para ARM Cortex-M, além de conhecimento em eletrônica e protocolos de comunicação automotiva."></p>
+        <p data-lang="pt" data-en="I am always looking for innovative challenges and opportunities to develop efficient and optimized solutions for embedded systems." data-pt="Estou sempre buscando desafios inovadores e oportunidades para desenvolver soluções eficientes e otimizadas para sistemas embarcados."></p>
+    </div>
+    
+    <footer>
+        <p>2025 Cássio Cioni Carmo </p>
+    </footer>
+</body>
 </html>
